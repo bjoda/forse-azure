@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDojo", "AzureDojo\AzureDojo.csproj", "{AC4A0F0D-42D1-48ED-ABEC-D2D56C70B644}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{774BC080-CE0B-4E81-B74A-A6FC157D645E}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{171A1F2E-65CA-4952-A922-E872C0BF1119}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\AzureDojo-WAWS-dev.json = PublishScripts\Configurations\AzureDojo-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC4A0F0D-42D1-48ED-ABEC-D2D56C70B644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4A0F0D-42D1-48ED-ABEC-D2D56C70B644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4A0F0D-42D1-48ED-ABEC-D2D56C70B644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4A0F0D-42D1-48ED-ABEC-D2D56C70B644}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{171A1F2E-65CA-4952-A922-E872C0BF1119} = {774BC080-CE0B-4E81-B74A-A6FC157D645E}
+	EndGlobalSection
+EndGlobal
